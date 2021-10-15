@@ -1,4 +1,4 @@
 - step:
     name: mytest
-    image: python:3.6
+    image: 258296240478.dkr.ecr.eu-west-1.amazonaws.com/dev2/create-datawarehouse-snapshot:bfc94658f61e09e494003b2798cd3180
     command: python test.py
