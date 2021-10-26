@@ -10,3 +10,5 @@ assert os.path.exists(image_path)
 
 with open(os.path.join(VH_OUTPUTS_DIR, 'test.txt'), 'w') as f:
     f.write('Hello!')
+
+print(os.environ)
