@@ -4,6 +4,9 @@
     command: 
         - aws s3 cp s3://leo-platform-images-staging/imagine/0002202d-d8be-4ddf-8fdb-b2dbb8606bee .
         - python test.py
+    inputs:
+        - name: imagine-test-image
+          default: s3://leo-platform-images-staging/imagine/0002202d-d8be-4ddf-8fdb-b2dbb8606bee
 - endpoint:
     name: wsgi-endpoint
     description: test endpoint
